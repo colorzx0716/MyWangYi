@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiao.mywangyi.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#EB413D"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/cehua1"
+            android:src="@drawable/cehua1"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <ImageView
+            android:src="@drawable/toubiao"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            android:layout_width="80dp"
+            android:layout_height="50dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <ImageView
+                android:id="@+id/touxiang"
+                android:layout_toLeftOf="@+id/gengduo"
+                android:src="@drawable/touxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:id="@+id/gengduo"
+                android:src="@drawable/gengduo"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.example.kson.tablayout.widget.HorizontalScollTabhost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.example.kson.tablayout.widget.HorizontalScollTabhost>
+
+
+</LinearLayout>
