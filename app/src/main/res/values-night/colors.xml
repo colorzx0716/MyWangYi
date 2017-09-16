@@ -3,6 +3,14 @@
     <color name="colorPrimary">#AAAAAA</color>
     <color name="colorPrimaryDark">#888888</color>
     <color name="colorAccent">#666666</color>
+
+    <!--字体-->
     <color name="main_textcolor">#FFFF00</color>
+
+    <!-- 背景-->
+    <color name="bg_color">#232221</color>
+
+
+
 
 </resources>

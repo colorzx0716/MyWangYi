@@ -3,5 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--字体-->
     <color name="main_textcolor">#000000</color>
+
+    <!-- 背景-->
+    <color name="bg_color">#F0F0F0</color>
+
+
 </resources>

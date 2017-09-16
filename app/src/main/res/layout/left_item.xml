@@ -1,11 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    >
 
-    <TextView
-        android:text="左边"
+    <LinearLayout
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:gravity="center_vertical"
+        android:layout_height="80dp">
+        <ImageView
+            android:src="@drawable/xinwen"
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="新闻"
+            android:textColor="@color/main_textcolor"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="80dp">
+        <ImageView
+            android:src="@drawable/dingyue"
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="订阅"
+            android:textColor="@color/main_textcolor"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="80dp">
+        <ImageView
+            android:src="@drawable/tupian"
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="图片"
+            android:textColor="@color/main_textcolor"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="80dp">
+        <ImageView
+            android:src="@drawable/shipin"
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="视频"
+            android:textColor="@color/main_textcolor"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="80dp">
+        <ImageView
+            android:src="@drawable/gentie"
+            android:layout_marginLeft="100dp"
+            android:layout_width="50dp"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="跟帖"
+            android:textColor="@color/main_textcolor"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+
+
+
+
 
 </LinearLayout>
